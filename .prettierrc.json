@@ -1,0 +1,9 @@
+{
+    "prettier.enableDebugLogs": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "prettier.endOfLine": "lf",
+    "prettier.semi": true
+}
