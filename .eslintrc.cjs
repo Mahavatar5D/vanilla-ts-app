@@ -11,7 +11,6 @@ module.exports = {
     plugins: ["@typescript-eslint"],
     root: true,
     rules: {
-        // override/add rules settings here, such as:
-        // 'vue/no-unused-vars': 'error'
+        "@typescript-eslint/no-non-null-assertion": "off"
     }
 };
