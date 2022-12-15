@@ -9,11 +9,8 @@ button.onClick = () => {
     alert("My Button was clicked !");
 };
 
-const input = new Input("nome");
-const label = new Label(
-    "Digite seu nome: ",
-    input.element.getAttribute("name")!
-);
+const input = new Input("nome", "Digite seu nome");
+const label = new Label("Nome: ", input.element.getAttribute("name")!);
 
 appElement!.textContent = "My Application";
 button.render(appElement!);

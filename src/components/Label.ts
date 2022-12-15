@@ -1,7 +1,7 @@
 import Component from "./Component";
 
 export default class Label extends Component {
-    readonly element: HTMLElement;
+    readonly element: HTMLLabelElement;
 
     constructor(text: string, labelFor: string) {
         super();

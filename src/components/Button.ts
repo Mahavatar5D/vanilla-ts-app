@@ -1,7 +1,7 @@
 import Component from "./Component";
 
 export default class Button extends Component {
-    readonly element: HTMLElement;
+    readonly element: HTMLButtonElement;
 
     constructor(text: string) {
         super();
