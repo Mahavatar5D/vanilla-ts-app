@@ -1,4 +1,6 @@
 import Button from "./components/Button";
+import Input from "./components/Input";
+import Label from "./components/Label";
 
 const appElement = document.querySelector<HTMLDivElement>("#app");
 
@@ -7,5 +9,13 @@ button.onClick = () => {
     alert("My Button was clicked !");
 };
 
+const input = new Input("nome");
+const label = new Label(
+    "Digite seu nome: ",
+    input.element.getAttribute("name")!
+);
+
 appElement!.textContent = "My Application";
 button.render(appElement!);
+label.render(appElement!);
+input.render(appElement!);
